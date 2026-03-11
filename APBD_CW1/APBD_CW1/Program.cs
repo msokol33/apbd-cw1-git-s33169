@@ -9,10 +9,15 @@
             _gitService = gitService;
         }
 
-        public static int CalculateAverage(int[] values)
+        public static double CalculateAverage(int[] values)
         {
             var sum = 0;
-            return sum;
+            foreach (var value in values)
+            {
+               sum += value; 
+            }
+            
+            return sum / values.Length;
         }
         
         public static void Main(string[] args)
