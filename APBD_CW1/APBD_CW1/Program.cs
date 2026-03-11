@@ -1,3 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace APBD_CW1
+{
+    public class Program
+    {
+        private IGitService _gitService;
 
-Console.WriteLine("Hello, World!");
+        public Program(IGitService gitService)
+        {
+            _gitService = gitService;
+        }
+
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");            
+        }
+    }
+}
