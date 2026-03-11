@@ -32,6 +32,11 @@
             }
             return max;
         }
+
+        public static int CalculateMin(int[] values)
+        {
+            return 0;
+        }
         
         public static void Main(string[] args)
         {
