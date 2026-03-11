@@ -22,7 +22,7 @@
 
         public static int CalculateMax(int[] values)
         {
-            var max = 0;
+            var max = values[0];
             foreach (var value in values)
             {
                 if (max < value)
