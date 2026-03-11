@@ -2,7 +2,7 @@
 {
     public class Program
     {
-        private IGitService _gitService;
+        private IGitService _gitServiceSupplier;
 
         public Program(IGitService gitService)
         {
