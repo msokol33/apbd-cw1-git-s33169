@@ -19,10 +19,25 @@
             
             return sum / values.Length;
         }
+
+        public static int CalculateMax(int[] values)
+        {
+            var max = 0;
+            foreach (var value in values)
+            {
+                if (max < value)
+                {
+                    max = value;
+                }
+            }
+            return max;
+        }
         
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");            
+            Console.WriteLine("Hello World!");
+            var maximum = CalculateMax([1, 3, 5, 7, 8, 11, 22, 33]);
+            Console.WriteLine(maximum);
         }
     }
 }
