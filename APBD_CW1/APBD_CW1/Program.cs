@@ -9,6 +9,12 @@
             _gitService = gitService;
         }
 
+        public static int CalculateAverage(int[] values)
+        {
+            var sum = 0;
+            return sum;
+        }
+        
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");            
