@@ -2,11 +2,11 @@
 {
     public class Program
     {
-        private IGitService _gitService;
+        private IGitService _supply;
 
         public Program(IGitService gitService)
         {
-            _gitService = gitService;
+            _supply = gitService;
         }
 
         public static double CalculateAverage(int[] values)
